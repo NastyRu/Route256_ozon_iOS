@@ -1,0 +1,151 @@
+{
+    "layout": [
+        {
+            "meta": {
+                "vertical": "banners",
+                "component": "banner",
+                "version": 1
+            },
+            "stateID": "banner-0"
+        },
+        {
+            "meta": {
+                "vertical": "banners",
+                "component": "banner",
+                "version": 1
+            },
+            "stateID": "banner-1"
+        },
+        {
+            "meta": {
+                "vertical": "banners",
+                "component": "banner",
+                "version": 1
+            },
+            "stateID": "banner-2"
+        },
+        {
+            "meta": {
+                "vertical": "banners",
+                "component": "banner",
+                "version": 1
+            },
+            "stateID": "banner-3"
+        },
+        {
+            "meta": {
+                "vertical": "banners",
+                "component": "banner",
+                "version": 1
+            },
+            "stateID": "banner-4"
+        },
+        {
+            "meta": {
+                "vertical": "banners",
+                "component": "banner",
+                "version": 1
+            },
+            "stateID": "banner-5"
+        },
+        {
+            "meta": {
+                "vertical": "banners",
+                "component": "banner",
+                "version": 1
+            },
+            "stateID": "banner-6"
+        },
+        {
+            "meta": {
+                "vertical": "banners",
+                "component": "banner",
+                "version": 1
+            },
+            "stateID": "banner-7"
+        },
+        {
+            "meta": {
+                "vertical": "banners",
+                "component": "banner",
+                "version": 1
+            },
+            "stateID": "banner-8"
+        },
+        {
+            "meta": {
+                "vertical": "banners",
+                "component": "banner",
+                "version": 1
+            },
+            "stateID": "banner-9"
+        },
+        {
+            "meta": {
+                "vertical": "route256Path",
+                "component": "welcome",
+                "version": 1
+            },
+            "stateID": "route256-welcome"
+        }
+    ],
+    "nextURL": "https://api.ozon.ru/composer-api.bx/",
+    "banners": {
+        "banner": {
+            "banner-0": {
+                "title": "Это виджет: banner-0",
+                "subtitle": "Route256"
+            },
+            "banner-1": {
+                "title": "Это виджет: banner-1",
+                "subtitle": "Route256"
+            },
+            "banner-2": {
+                "title": "Это виджет: banner-2",
+                "subtitle": "Route256"
+            },
+            "banner-3": {
+                "title": "Это виджет: banner-3",
+                "subtitle": "Route256"
+            },
+            "banner-4": {
+                "title": "Это виджет: banner-4",
+                "subtitle": "Route256"
+            },
+            "banner-5": {
+                "title": "Это виджет: banner-5",
+                "subtitle": "Route256"
+            },
+            "banner-6": {
+                "title": "Это виджет: banner-6",
+                "subtitle": "Route256"
+            },
+            "banner-7": {
+                "title": "Это виджет: banner-7",
+                "subtitle": "Route256"
+            },
+            "banner-8": {
+                "title": "Это виджет: banner-8",
+                "subtitle": "Route256"
+            },
+            "banner-9": {
+                "title": "Это виджет: banner-9",
+                "subtitle": "Route256"
+            }
+        }
+    }, 
+    "route256Path": {
+        "welcome": {
+            "route256-welcome": {
+                "items": [
+                {
+                    "image": "https://images.unsplash.com/photo-1620229557622-4a6d2b49a88d?fit=crop&w=300&q=50"
+                }
+                ], 
+                "footer": {
+                    "text": "Welcome on board! 🤙"
+                }
+            }
+        }
+    }
+}

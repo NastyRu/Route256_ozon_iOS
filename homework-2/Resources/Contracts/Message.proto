@@ -1,0 +1,12 @@
+message Welcome {
+    repeated Item items = 1; // required
+    Footer footer = 2; // required
+}
+
+message Item {
+    google.protobuf.StringValue image = 1; // required
+}
+
+message Footer {
+     google.protobuf.StringValue text = 1; // required
+}
