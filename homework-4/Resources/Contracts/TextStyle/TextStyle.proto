@@ -1,0 +1,8 @@
+enum TextStyle {
+    HEAD_L = 1;
+    HEAD_M = 2;
+    HEAD_M_BOLD = 3;
+    BODY_L = 4;
+    BODY_L_BOLD = 5;
+    BODY_M = 6;
+}

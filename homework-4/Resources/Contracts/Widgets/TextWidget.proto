@@ -1,0 +1,5 @@
+import atoms.textAtom
+
+message TextWidget {
+    TextAtom text = 1; // required
+}

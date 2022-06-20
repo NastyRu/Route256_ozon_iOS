@@ -1,0 +1,5 @@
+message TextAtom {
+    string text = 1; // required
+    TextStyle textStyle = 2;
+    int32 maxLines = 3;
+}

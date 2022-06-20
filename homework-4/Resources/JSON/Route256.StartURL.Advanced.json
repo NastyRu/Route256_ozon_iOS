@@ -1,0 +1,251 @@
+{
+    "layout": [
+        {
+            "meta": {
+                "vertical": "banners",
+                "component": "banner",
+                "version": 1
+            },
+            "stateID": "banner-0"
+        },
+        {
+            "meta": {
+                "vertical": "banners",
+                "component": "banner",
+                "version": 1
+            },
+            "stateID": "banner-1"
+        },
+        {
+            "meta": {
+                "vertical": "banners",
+                "component": "banner",
+                "version": 1
+            },
+            "stateID": "banner-2"
+        },
+        {
+            "meta": {
+                "vertical": "banners",
+                "component": "banner",
+                "version": 1
+            },
+            "stateID": "banner-3"
+        },
+        {
+            "meta": {
+                "vertical": "banners",
+                "component": "banner",
+                "version": 1
+            },
+            "stateID": "banner-4"
+        },
+        {
+            "meta": {
+                "vertical": "banners",
+                "component": "banner",
+                "version": 1
+            },
+            "stateID": "banner-5"
+        },
+        {
+            "meta": {
+                "vertical": "banners",
+                "component": "banner",
+                "version": 1
+            },
+            "stateID": "banner-6"
+        },
+        {
+            "meta": {
+                "vertical": "banners",
+                "component": "banner",
+                "version": 1
+            },
+            "stateID": "banner-7"
+        },
+        {
+            "meta": {
+                "vertical": "banners",
+                "component": "banner",
+                "version": 1
+            },
+            "stateID": "banner-8"
+        },
+        {
+            "meta": {
+                "vertical": "banners",
+                "component": "banner",
+                "version": 1
+            },
+            "stateID": "banner-9"
+        },
+        {
+            "meta": {
+                "vertical": "route256Path",
+                "component": "welcome",
+                "version": 1
+            },
+            "stateID": "route256-welcome"
+        },
+        {
+            "meta": {
+                "vertical": "common",
+                "component": "textBlock",
+                "version": 1
+            },
+            "stateID": "common-textBlock-id0"
+        }
+    ],
+    "nextURL": "https://api.ozon.ru/composer-api.bx/",
+    "banners": {
+        "banner": {
+            "banner-0": {
+                "title": "Это виджет: banner-0",
+                "subtitle": "Route256",
+                "button": {
+                    "title": "Написать Hello",
+                    "action": {
+                        "behavior": "BEHAVIOR_TYPE_PRINT",
+                        "params": {
+                            "message": "Hello 🇬🇧"
+                        }
+                    }
+                }
+            },
+            "banner-1": {
+                "title": "Это виджет: banner-1",
+                "subtitle": "Route256",
+                "deeplink": "route256://composer",
+                "button": {
+                    "title": "Написать Bonjour",
+                    "action": {
+                        "behavior": "BEHAVIOR_TYPE_PRINT",
+                        "params": {
+                            "message": "Bonjour 🇫🇷"
+                        }
+                    }
+                }
+            },
+            "banner-2": {
+                "title": "Это виджет: banner-2",
+                "subtitle": "Route256",
+                "deeplink": "route256://hello?greeting=Hello",
+                "button": {
+                    "title": "Написать Привет",
+                    "action": {
+                        "behavior": "BEHAVIOR_TYPE_PRINT",
+                        "params": {
+                            "message": "Привет 🇷🇺"
+                        }
+                    }
+                }
+            },
+            "banner-3": {
+                "title": "Это виджет: banner-3",
+                "subtitle": "Route256",
+                "deeplink": "route256://web?url=https://www.ozon.ru",
+                "button": {
+                    "title": "Открыть HelloPage 🙋‍♂️",
+                    "action": {
+                        "behavior": "BEHAVIOR_TYPE_REDIRECT",
+                        "params": {
+                            "url": "route256://hello?greeting=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82"
+                        }
+                    }
+                }
+            },
+            "banner-4": {
+                "title": "Это виджет: banner-4",
+                "subtitle": "Route256",
+                "button": {
+                    "title": "Открыть композер 🧙‍♂️",
+                    "action": {
+                        "behavior": "BEHAVIOR_TYPE_REDIRECT",
+                        "params": {
+                            "url": "route256://composer"
+                        }
+                    }
+                }
+            },
+            "banner-5": {
+                "title": "Это виджет: banner-5",
+                "subtitle": "Route256",
+                "button": {
+                    "title": "Открыть Озон 🚪",
+                    "action": {
+                        "behavior": "BEHAVIOR_TYPE_REDIRECT",
+                        "params": {
+                            "url": "route256://web?url=https://www.ozon.ru"
+                        }
+                    }
+                }
+            },
+            "banner-6": {
+                "title": "Это виджет: banner-6",
+                "subtitle": "Route256"
+            },
+            "banner-7": {
+                "title": "Это виджет: banner-7",
+                "subtitle": "Route256"
+            },
+            "banner-8": {
+                "title": "Это виджет: banner-8",
+                "subtitle": "Route256"
+            },
+            "banner-9": {
+                "title": "Это виджет: banner-9",
+                "subtitle": "Route256"
+            }
+        }
+    },
+    "route256Path": {
+        "welcome": {
+            "route256-welcome": {
+                "items": [
+                    {
+                        "image": "https://images.unsplash.com/photo-1620229557622-4a6d2b49a88d?fit=crop&w=300&q=50"
+                    },
+                    {
+                        "image": "https://images.unsplash.com/photo-1627319715216-1257c79a4ce4?fit=crop&w=300&q=50"
+                    },
+                    {
+                        "image": "https://images.unsplash.com/photo-1626235796509-4722ac5896d8?fit=crop&w=300&q=50"
+                    },
+                    {
+                        "image": "https://images.unsplash.com/photo-1605163794376-efba3334a6e1?fit=crop&w=300&q=50"
+                    },
+                    {
+                        "image": "https://ih1.redbubble.net/image.496649492.1150/flat,250x,075,f-pad,300x300,ffffff.u1.jpg"
+                    },
+                    {
+                        "image": "https://images.unsplash.com/photo-1563213158-3459cbf0547e?fit=crop&w=310&q=50"
+                    },
+                    {
+                        "image": "https://images.unsplash.com/photo-1612352227378-7cc8966b639f?fit=crop&w=300&q=50"
+                    },
+                    {
+                        "image": "https://images.unsplash.com/photo-1577309603242-fe3a81804530?fit=crop&w=300&q=50"
+                    },
+                    {
+                        "image": "https://images.unsplash.com/photo-1504450874802-0ba2bcd9b5ae?fit=crop&w=300&q=50"
+                    }
+                ],
+                "footer": {
+                    "text": "Welcome on board! 🤙"
+                }
+            }
+        }
+    },
+    "common": {
+        "textBlock": {
+            "common-textBlock-id0": {
+                "text": {
+                    "text": "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. <b>Vestibulum</b> tortor <strong>quam</strong>, feugiat vitae, ultricies eget, tempor sit amet, ante. <br><br>Donec eu <i>libero</i> sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>",
+                    "maxLines": 0,
+                    "textStyle": "BODY_M"
+                }
+            }
+        }
+    }
+}
